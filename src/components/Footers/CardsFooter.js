@@ -39,7 +39,7 @@ class CardsFooter extends React.Component {
     return (
       <>
         <footer className="footer has-cards">
-          <Container className="container-lg">
+          {/* <Container className="container-lg">
             <Row>
               <Col className="mb-5 mb-md-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
@@ -62,12 +62,12 @@ class CardsFooter extends React.Component {
                 </Card>
               </Col>
             </Row>
-          </Container>
-          <Container>
+          </Container> */}
+          <Container style={{ textAlign: "center", marginTop: "11rem" }}>
             <Row className="row-grid align-items-center my-md">
               <Col lg="6">
-                <h3 className="text-primary font-weight-light mb-2">
-                  Thank you for supporting us!
+                <h3 className="text-primary font-weight-light mb-2" >
+                  Thank you for contact me!
                 </h3>
                 <h4 className="mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.
@@ -102,7 +102,7 @@ class CardsFooter extends React.Component {
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
                   Like us
                 </UncontrolledTooltip>
-                <Button
+                {/* <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="dribbble"
                   href="https://dribbble.com/creativetim"
@@ -115,7 +115,7 @@ class CardsFooter extends React.Component {
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip829810202">
                   Follow us
-                </UncontrolledTooltip>
+                </UncontrolledTooltip> */}
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
@@ -138,10 +138,10 @@ class CardsFooter extends React.Component {
                 <div className="copyright">
                   © {new Date().getFullYear()}{" "}
                   <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
+                    href="https://github.com/abdelqader-alomari"
                     target="_blank"
                   >
-                    Creative Tim
+                    Abdelqader Al-Omari
                   </a>
                   .
                 </div>
@@ -150,36 +150,36 @@ class CardsFooter extends React.Component {
                 <Nav className="nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com?ref=adsr-footer"
+                      href="https://github.com/abdelqader-alomari"
                       target="_blank"
                     >
-                      Creative Tim
+                      Abdelqader Al-Omari
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com/presentation?ref=adsr-footer"
-                      target="_blank"
+                      href="../"
+                      target="_self"
                     >
-                      About Us
+                      Home
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="http://blog.creative-tim.com?ref=adsr-footer"
-                      target="_blank"
+                      href="/portfolio-page/"
+                      target="_self"
                     >
-                      Blog
+                      About Me
                     </NavLink>
                   </NavItem>
-                  <NavItem>
+                  {/* <NavItem>
                     <NavLink
                       href="https://github.com/creativetimofficial/argon-design-system-react/blob/main/LICENSE.md"
                       target="_blank"
                     >
                       MIT License
                     </NavLink>
-                  </NavItem>
+                  </NavItem> */}
                 </Nav>
               </Col>
             </Row>
