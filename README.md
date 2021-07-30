@@ -213,3 +213,15 @@ Facebook: <https://www.facebook.com/CreativeTim?ref=creativetim>
 Dribbble: <https://dribbble.com/creativetim?ref=creativetim>
 
 Instagram: <https://www.instagram.com/CreativeTimOfficial?ref=creativetim>
+
+---
+
+## Time Estimate :
+
+| Number and name of feature                      | Estimated time                         | Start time | Finish time | Actual time |
+| ----------------------------------------------- | -------------------------------------- | ---------- | ----------- | ----------- |
+| Feature #1: Deploy and /fix npm error           | 30 minutes without an error            | 2:30       | 4:00        | 1:30 hours  |
+| Feature #2: Profile Page                        | 30 minutes                             | 4:30       | 5:00        | 30 minutes  |
+| Feature #3: Nav, Header and Footer + /Bootstrap | 60 minutes                             | 5:00       | 6:30        | 1:30 hours  |
+| Feature #4: Portfolio Page                      | I didn't guess                         | 7:30       | 10:30       | 3 hours     |
+| Feature #5: Personalize                         | I did most in feature #4 so 10 minutes | 10:30      | 10:40       | 10 minutes  |
